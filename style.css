@@ -16,7 +16,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.3rem;
+    padding: .9rem 1.3rem;
+    border-bottom: 1px solid #706d6d28;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
 }
 
 header img {
@@ -312,7 +316,7 @@ footer div.socials {
 
 @media (min-width: 720px) {
     header {
-        padding: 2rem 2.3rem;
+        padding: .9rem 2.3rem;
     }
 
     header img {
